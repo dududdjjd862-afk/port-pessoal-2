@@ -2,17 +2,10 @@ import type { Project } from "@/types";
 
 export const projects: Project[] = [
   {
-    name: "[NOME DO PROJETO 1]",
-    description: "[Descreva o problema resolvido, seu papel no projeto e o resultado alcançado.]",
+    name: "Projeto de Libras",
+    description: "Instruir de forma educativa e ampliar a participação do público por meio de uma nova forma de comunicação: Libras.",
     technologies: ["[Tecnologia]", "[Tecnologia]"],
-    features: ["[Funcionalidade principal]", "[Funcionalidade principal]"],
+    features: ["Instrução educativa sobre Libras", "Facilitar a participação por meio da comunicação inclusiva"],
     category: "Web",
-  },
-  {
-    name: "[NOME DO PROJETO 2]",
-    description: "[Descreva aqui um segundo projeto real, suas responsabilidades e impacto.]",
-    technologies: ["[Tecnologia]", "[Tecnologia]"],
-    features: ["[Funcionalidade principal]", "[Funcionalidade principal]"],
-    category: "Outro",
   },
 ];

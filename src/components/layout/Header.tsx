@@ -9,7 +9,6 @@ const links = [
   ["Skills", "skills"],
   ["Trajetória", "trajetoria"],
   ["Sobre", "sobre"],
-  ["Contato", "contato"],
 ] as const;
 
 export function Header() {

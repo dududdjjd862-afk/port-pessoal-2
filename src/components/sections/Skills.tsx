@@ -1,8 +1,8 @@
-import { Braces, Database, Server, Wrench, Workflow } from "lucide-react";
+import { Braces, Database } from "lucide-react";
 import { skillCategories } from "@/data/skills";
 import { Reveal } from "@/components/ui/Reveal";
 
-const icons = [Braces, Server, Database, Wrench, Workflow];
+const icons = [Braces, Database];
 
 export function Skills() {
   return (
@@ -11,7 +11,7 @@ export function Skills() {
         <Reveal>
           <p className="eyebrow">02 / Skills</p>
           <h2 className="section-title mt-3">Ferramentas que domino</h2>
-          <p className="mt-4 max-w-2xl text-lg leading-8 text-[var(--muted)]">Tecnologias organizadas por área. Substitua os placeholders pelas competências que realmente fazem parte da sua experiência.</p>
+          <p className="mt-4 max-w-2xl text-lg leading-8 text-[var(--muted)]">Atualmente aprendendo novas tecnologias em front-end e banco de dados.</p>
         </Reveal>
         <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {skillCategories.map((category, index) => {

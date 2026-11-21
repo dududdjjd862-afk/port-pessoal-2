@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "motion/react";
-import { ArrowDownRight, Code2, Link as LinkIcon, Mail } from "lucide-react";
+import { ArrowDownRight, Code2, Link as LinkIcon } from "lucide-react";
 import { profile, socialLinks } from "@/data/profile";
 
 export function Hero() {
@@ -27,9 +27,6 @@ export function Hero() {
           <div className="mt-9 flex flex-wrap gap-3">
             <a href="#projetos" className="primary-button">
               Ver projetos <ArrowDownRight size={18} />
-            </a>
-            <a href="#contato" className="secondary-button">
-              <Mail size={17} /> Entrar em contato
             </a>
           </div>
           <div className="mt-9 flex gap-2">

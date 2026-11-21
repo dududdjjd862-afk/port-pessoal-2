@@ -25,17 +25,6 @@ Todos os campos ainda não informados aparecem como placeholders. Não substitua
 
 Para adicionar fotos reais, coloque os arquivos em `public/images/` e configure o campo correspondente. Para certificados, use `public/certificates/`.
 
-## Contato por e-mail
-
-O formulário usa a API da Resend e não simula o envio.
-
-1. Crie uma conta e uma chave em https://resend.com.
-2. Copie `.env.example` para `.env.local`.
-3. Preencha `RESEND_API_KEY`, `CONTACT_EMAIL` e, opcionalmente, `MAIL_FROM`.
-4. Reinicie o servidor.
-
-Para produção, confirme um domínio próprio no Resend e use um remetente desse domínio.
-
 ## Qualidade
 
 ```bash
